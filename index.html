@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhrub Singh Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: #f0f4f8;
+      }
+      html {
+        scroll-padding-top: 80px;
+      }
+      .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 0 30px;
+      }
+      nav {
+        background: white;
+        height: 50px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid gainsboro;
+        padding: 20px 0;
+      }
+      .cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        background-color: blue;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        margin: 0;
+      }
+      nav a {
+        color: rgb(0, 0, 255);
+        text-decoration: none;
+        font-size: 20px;
+      }
+      p {
+        color: black;
+      }
+      header {
+        color: blue;
+        padding: 40px 0;
+        border-bottom: 1px solid gainsboro;
+        font-size: 30px;
+      }
+      section {
+        padding: 40px 0;
+        color: blue;
+        border-bottom: 1px solid gainsboro;
+        font-size: 25px;
+      }
+      img {
+        float: left;
+        padding-right: 20px;
+      }
+      .education-content li {
+        background-color: lightskyblue;
+        color: black;
+        border: 1px solid grey;
+        padding: 5px 15px;
+        border-radius: 50px;
+      }
+      .skills-content li {
+        font-size: 25px;
+        background-color: lightskyblue;
+        color: black;
+        border: 1px solid grey;
+        padding: 5px 15px;
+        border-radius: 50px;
+      }
+      #resume .btn {
+        color: black;
+        text-decoration: none;
+        background-color: #a7a7fa;
+        border: 1px solid grey;
+        padding: 10px 10px;
+        border-radius: 15px;
+        font-size: 20px;
+      }
+      footer {
+        text-align: center;
+        background-color: gray;
+        padding: 10px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav aria-label="Main">
+      <div class="container cont">
+        <a class="logo" href="#top"><span>DS</span></a>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container">
+        <h1>Dhrub Singh</h1>
+        <p>Frontend Web Developer & UI Designer</p>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="container">
+          <img
+            src="./Photo Dhrub Singh.jpeg"
+            height="200px"
+            alt="Dhrub's photo"
+          />
+          <h2>About Me</h2>
+          <p>
+            I am a web developer dedicated to building elegant, responsive and
+            reliable applications. I believe the best web experiences are built
+            at the intersection of thoughtful design and solid code. Every
+            project I take on is an opportunity to learn something new and leave
+            the code better than I found it.
+          </p>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="container education-content">
+          <h2>Education</h2>
+          <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+          <ul>
+            <li>Central University of Jammu | 2024 - Present</li>
+          </ul>
+          <h3>Relevant Coursework</h3>
+          <ul>
+            <li>DSA, DBMS, OS, IOT & Computer Networks</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="container skills-content">
+          <h2>Skills</h2>
+          <h3>Front end</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <h3>Programming languages</h3>
+          <ul>
+            <li>C & C++</li>
+            <li>Python</li>
+            <li>Java</li>
+          </ul>
+          <h3>Tools</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+            <li>npm</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="resume">
+        <div class="container">
+          <h2>Resume</h2>
+          <p>
+            Download my complete resume to learn more about my background and
+            experience.
+          </p>
+          <a href="resume.pdf" class="btn" download>Download Resume (PDF)</a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <p><strong>Email:</strong> dhrubs279@gmail.com</p>
+          <p><strong>Phone:</strong> +91 7051609192</p>
+          <p><strong>Location:</strong> J & K, INDIA</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Dhrub Singh. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
